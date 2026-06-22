@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-primary: #ffffff;
+  --color-accent-white: #000000;
+  --color-accent-black: #000000;
+  --color-bg-light: #000000;
+  --color-bg-cement: #18181b;
+  --color-bg-nav: #09090b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-bg-light text-primary font-sans antialiased;
+  }
+}
+
+.section-full {
+  @apply min-h-screen flex flex-col justify-center items-center py-20 px-6;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-xl;
+}
