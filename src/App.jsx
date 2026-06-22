@@ -28,7 +28,7 @@ const navItems = [
 ];
 
 const EMAIL_ADDRESS = 'shaikbasha11512@gmail.com';
-const LINKEDIN_URL = 'https://www.linkedin.com/in/shaik-basha';
+const LINKEDIN_URL = 'https://www.linkedin.com/in/shaik-basha-20302735a/';
 const LEETCODE_URL = 'https://leetcode.com/KL2400033085';
 
 export default function App() {
